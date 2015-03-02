@@ -1,6 +1,6 @@
 package runner;
 
-import model.Costumer;
+import model.Customer;
 import model.Human;
 import model.Worker;
 
@@ -9,7 +9,7 @@ import model.Worker;
  */
 public class TestPoly {
     public static void main(String[] args) {
-        Human hCustomer = new Costumer();
+        Human hCustomer = new Customer();
         hCustomer.create();
         Human hWorker = new Worker();
         hWorker.create();

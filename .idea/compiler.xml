@@ -23,9 +23,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="abstract" />
+        <module name="generic" />
         <module name="inheritance" />
         <module name="interface" />
+        <module name="Models" />
         <module name="polimorfizm" />
+        <module name="polymorphism" />
       </profile>
     </annotationProcessing>
   </component>

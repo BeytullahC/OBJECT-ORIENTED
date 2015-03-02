@@ -22,7 +22,7 @@ public class Tester {
         Human parent = new Worker();
         parent.setName("BEYTULLAH");
         parent.create();
-        Human parentCostumer = new Costumer();
+        Human parentCostumer = new Customer();
         parentCostumer.create();
         System.out.println(parentCostumer.getClass());
         System.out.println(parent.getClass());

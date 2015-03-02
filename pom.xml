@@ -12,6 +12,9 @@
         <module>inheritance</module>
         <module>interface</module>
         <module>polymorphism</module>
+        <module>Models</module>
+        <module>abstract</module>
+        <module>generic</module>
     </modules>
 
 
