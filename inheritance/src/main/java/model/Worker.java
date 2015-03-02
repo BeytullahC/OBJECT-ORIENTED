@@ -3,14 +3,14 @@ package model;
 /**
  * Created by BeytullahC on 02.03.2015.
  */
-public class Isci extends Insan {
+public class Worker extends Human {
 
     private String sicilNo;
 
-    /*@Override
-    public void ekle(){
-        System.out.println("ISCI EKLE");
-    }*/
+    @Override
+    public void create(){
+        System.out.println("Worker created");
+    }
 
     public String getSicilNo() {
         return sicilNo;

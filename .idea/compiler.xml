@@ -25,6 +25,7 @@
         <processorPath useClasspath="true" />
         <module name="inheritance" />
         <module name="interface" />
+        <module name="polimorfizm" />
       </profile>
     </annotationProcessing>
   </component>
